@@ -19,3 +19,21 @@ then
 ANS="$( $DGT1 + $DGT2 )"
 echo " [$TIME] your answer is $ANS "
 fi
+
+if [ $PRCS -eq 2 ]
+then
+ANS="$( $DGT1 - $DGT2 )"
+echo " [$TIME] your answer is $ANS "
+fi
+
+if [ $PRCS -eq 3 ]
+then
+ANS="$( $DGT1 * $DGT2 )"
+echo " [$TIME] your answer is $ANS "
+fi
+
+if [ $PRCS -eq 4 ]
+then
+ANS="$( $DGT1 / $DGT2 )"
+echo " [$TIME] your answer is $ANS "
+fi
