@@ -23,28 +23,28 @@ read PRCS
 # add
 if [ $PRCS -eq 1 ]
 then
-ANS="$( $DGT1 + $DGT2 )"
+ANS="$( echo "$(($DGT1 + $DGT2))" )"
 echo " [$TIME] your answer is $ANS "
 fi
 
 # substract
 if [ $PRCS -eq 2 ]
 then
-ANS="$( $DGT1 - $DGT2 )"
+ANS="$( echo "$(($DGT1 - $DGT2))" )"
 echo " [$TIME] your answer is $ANS "
 fi
 
 # multiply
 if [ $PRCS -eq 3 ]
 then
-ANS="$( $DGT1 * $DGT2 )"
+ANS="$( echo "$(($DGT1 * $DGT2))" )"
 echo " [$TIME] your answer is $ANS "
 fi
 
 # divide
 if [ $PRCS -eq 4 ]
 then
-ANS="$( $DGT1 / $DGT2 )"
+ANS="$( echo "$(($DGT1 / $DGT2))" )"
 echo " [$TIME] your answer is $ANS "
 fi
 
